@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatelessWidget {
+  const SplashScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     Future.delayed(Duration(seconds: 5), () {
@@ -67,6 +69,7 @@ class SplashScreen extends StatelessWidget {
           child: Text(
             'Style Meets Simplicity',
             style: TextStyle(
+              // ignore: deprecated_member_use
               color: Colors.white.withOpacity(0.7),
               fontSize: 12,
               letterSpacing: 1,
