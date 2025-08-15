@@ -21,18 +21,42 @@
   <meta name="description" content="A new Flutter project.">
 
   <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="final_project">
+  <meta name="apple-mobile-web-app-title" content="chat_app">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>final_project</title>
+  <title>chat_app</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
   <script src="flutter_bootstrap.js" async></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: 
+        "AIzaSyC7F7t5fz7kDnQnBpZ4YiZ4B0fRQ5P7iC0",
+      authDomain:
+        "chat-app-ee7d0.firebaseapp.com",
+      databaseURL: 
+        "https://chat-app-ee7d0-default-rtdb.firebaseio.com",
+      projectId: 
+        "chat-app-ee7d0",
+      storageBucket: 
+        "chat-app-ee7d0.appspot.com",
+      messagingSenderId:
+        "149528198265",
+      appId: 
+        "1:149528198265:android:f889c09abfc0d01d99a8a8",
+      measurementId: 
+        "G-2GZT2Z7ZC6"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
 </body>
 </html>
