@@ -7,8 +7,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'features/auth/presentation/pages/registeration.dart';
 
-class ScholarChat extends StatelessWidget {
-  const ScholarChat({super.key});
+class ChatApp extends StatelessWidget {
+  const ChatApp({super.key});
 
   // This widget is the root of your application.
   @override
@@ -24,7 +24,7 @@ class ScholarChat extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Scholar Chat',
+        title: 'Chat Chat',
         routes: {
           Registeration.id: (context) => Registeration(),
           LogIn.id: (context) => LogIn(),

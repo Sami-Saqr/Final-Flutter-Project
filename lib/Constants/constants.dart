@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const kPrimaryColor = Color(0xff2B475E);
+const kPrimaryColor = Color.fromARGB(255, 255, 136, 0);
 const kSecondaryColor = Color.fromARGB(255, 18, 168, 56);
 const kLogo = 'assets/images/scholar.png';
 const kMessagesCollections = 'messages';
