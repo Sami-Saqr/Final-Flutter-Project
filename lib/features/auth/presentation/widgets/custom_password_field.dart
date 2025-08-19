@@ -16,7 +16,7 @@ class CustomPasswordField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
-      obscureText: true,
+      obscureText: true, // make text like *** for password
       validator: (value) {
         if (value == null || value.isEmpty) {
           return 'This field is required';

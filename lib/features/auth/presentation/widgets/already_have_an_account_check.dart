@@ -16,6 +16,7 @@ class AlreadyHaveAnAccountCheck extends StatelessWidget {
           style: const TextStyle(color: Colors.white70, fontSize: 15),
         ),
         InkWell(
+          //make inside able to click
           onTap: press,
           child: Text(
             // 'Sign Up',
