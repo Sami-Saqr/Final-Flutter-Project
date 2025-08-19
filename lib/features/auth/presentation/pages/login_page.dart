@@ -53,7 +53,7 @@ class LogIn extends StatelessWidget {
                   const Spacer(flex: 1),
                   Image.asset(kLogo),
                   Text(
-                    'Chat chat',
+                    'Group chat',
                     style: textStyle,
                   ),
                   const Spacer(flex: 1),

@@ -55,7 +55,7 @@ class Registeration extends StatelessWidget {
                     const Spacer(flex: 1),
                     Image.asset(kLogo),
                     Text(
-                      'Chat Chat',
+                      'Group Chat',
                       style: textStyle,
                     ),
                     const Spacer(flex: 1),
